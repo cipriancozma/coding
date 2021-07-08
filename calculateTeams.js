@@ -13,6 +13,8 @@ if(teamDolphins > teamKoalas && teamDolphins > 100) {
     console.log("Koalas win!")
 } else if(teamKoalas > 100 && teamDolphins > 100 && teamDolphins === teamKoalas) {
     console.log("There is a draw");
+} else {
+    console.log("The teams need to have a score higher than 100");
 }
 
 // if(teamDolphins > teamKoalas) {
